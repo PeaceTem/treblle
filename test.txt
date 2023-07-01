@@ -1,0 +1,4 @@
+curl -X POST -H "Content-Type: application/json" -d '{"username": "Temiloluwa", "password": "a123bed9"}' http://localhost:8000/api/token/
+
+
+{"refresh":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoicmVmcmVzaCIsImV4cCI6MTY4ODMyNzI1NCwiaWF0IjoxNjg4MjQwODU0LCJqdGkiOiJhM2U1ZTI3OTM4NmE0ZWE2YjQ3YWZmYTU0ODI2OGJkYiIsInVzZXJfaWQiOjF9.xqABDFlhK5pn8sRa6ESRCRZIt874sGDHIfVvp2UJgWw","access":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjg4MjQxMTU0LCJpYXQiOjE2ODgyNDA4NTQsImp0aSI6IjgyNmRlNDk2YWZiZjQ0YmU4YzNiNWY1OTU1MzAwN2JiIiwidXNlcl9pZCI6MX0.HMSaHYL08KvyNaQMfR63pMiXX2ckToGiAL2zsFkK_qA"}
